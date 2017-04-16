@@ -16,6 +16,9 @@ a nav-link{
   color: white;
 }
 
+.about > .row {
+  padding-top: 5rem;
+}
 /*.navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 0.7);
     position: 100%;
@@ -397,17 +400,6 @@ padding-top: 3rem;
   padding: 2rem 0rem 5rem 0rem;
 }
 
-}
-
-.copyright{
-  display: flex;
-  flex-direction:column;
-  float: left;
-  line-height: 0.3rem;
-  text-align: left;
-  width: 100%;
-  padding: 10px 0px 0px 50px;
-  margin-bottom: 20px;
 }
 
 /*changeAutoFillColor*/
