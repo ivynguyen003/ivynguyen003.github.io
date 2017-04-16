@@ -236,6 +236,10 @@ padding-top: 3rem;
     width: 100%;
   }
 
+.pickme2 img {
+  margin-top: 0.5rem;
+}  
+
  .row2b{
     display: flex;
     flex-direction:column;
