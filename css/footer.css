@@ -1,0 +1,86 @@
+@media screen and (min-width: 40em) { 
+  .footer-bottom{
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    justify-content: space-around;
+    letter-spacing: 0.1rem;
+    margin-top: 7rem;
+    width: 100%;
+    line-height: 1rem;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+   .copyright p{
+    float: left;
+    width: auto;
+    font-size: 0.8rem;
+ 
+  }
+
+  .copyright{
+    float: right;
+    padding: 10rem 0rem 0rem 20rem;
+  }
+  .footer-out{
+    width: auto;
+    display: flex;
+    flex-direction:row;
+    text-align: right;
+  }
+
+  .icon{
+    text-align: left;
+    line-height: 0.8rem;
+  }
+}
+
+.copyright{
+  display: flex;
+  flex-direction:column;
+  float: left;
+  line-height: 0.3rem;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0px 0px 50px;
+  margin-bottom: 20px;
+}
+
+/*.connect{
+  width: 20%;
+  float: right;
+}*/
+
+.icon a{
+  color: white;
+}
+/*.address{
+  width: 25%;
+  float: right;
+  text-align: left;
+  line-height: 0.5rem;
+  padding-right: 1rem;
+}*/
+
+.copyright a:hover{
+color: #da1c5c;
+}
+
+.copyright a{
+text-decoration:none;
+color: white;
+}
+
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  letter-spacing: 0.2rem;
+  padding-top: 10px;
+
+}
+
+.fa{
+padding-left:10px;
+}
