@@ -17,55 +17,6 @@ a nav-link{
   color: white;
 }
 
-/*.parallax1{
-  background-image: url("../images/pickmeup6.png");
-  height: 100%;
-  width: 100%;
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax2{
-  background-image: url("../images/VRHomeCover.png");
-  height: 1000px;
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax3{
-  background-image: url("../images/newsletter1.png");
-  height: 1500px;
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax4{
-  background-image: url("../images/averylabel2.png");
-  width: 100%;
-  height: 100%;
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax5{
-  background-image: url("../images/raw1.png");
-  width: 100%;
-  height: 100%;
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
-/*.navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.7);
-    position: 100%;
-}*/
-
 * { box-sizing: border-box; }
 
 /* force scrollbar */
@@ -237,7 +188,7 @@ padding-top: 3rem;
   }
 
 .pickme2 img {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }  
 
  .row2b{
@@ -271,7 +222,7 @@ padding-top: 3rem;
   padding:1rem 0rem 1rem 0rem;
 }
 .row2e{
-  padding: 2rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   margin: auto;
   width: 100%;
 }
@@ -286,7 +237,7 @@ padding-top: 3rem;
 }
 
 .row2e img{
-  padding:1rem 0rem 1rem 0rem;
+  padding:1rem 0rem 0rem 0rem;
 }
 .row2b{
     display: flex;
@@ -299,7 +250,7 @@ padding-top: 3rem;
 
   .flower{
     display: flex;
-    padding: 0rem 0rem 2rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
     flex-direction:row;
     justify-content: space-between;
     width: 100%;
@@ -338,8 +289,8 @@ border: none;
 
 .pickme1{
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
 }
 
 .colortheme{
@@ -369,9 +320,6 @@ display: flex;
 justify-content: space-between; 
 }
 
-.row1{
-  padding-top: 3rem;
-}
 .modal-body{
   padding: 0;
 }
@@ -436,6 +384,12 @@ div.modal-content img {
   line-height: 2rem;
 }
 
+.row1{
+  padding-top: 0rem 0rem 0rem 0rem;
+  margin: auto;
+  width: 80%;
+}
+
 .row2{
   padding: 2rem 0rem 2rem 0rem;
 }
@@ -452,7 +406,6 @@ div.modal-content img {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   text-align: center;
-  line-height: 0rem;
 }
 
 .rowpick a{
@@ -496,7 +449,16 @@ span.circles-text {
   }
   .footer-bottom {
   border-top:none;
-}
+  }
+  .row3{
+    display: flex;
+    flex-direction:column;
+    content-justify: space-between;
+    width: 80%;
+  }
+  .row3 img{
+    padding-top: 1rem;
+  }
 
 }
 @media only screen and (min-width: 40.063em) { 
